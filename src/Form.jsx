@@ -16,7 +16,7 @@ return (
 onSubmit={handleSubmit} 
 autoComplete='off'>
 
-{  (!state.succeeded) && <h2 className='form-headline'>Please send us your Feedback or compliments. </h2>}   
+{  (!state.succeeded) && <h2 className='form-headline'>Please send us your Feedback or compliments.</h2>}   
 
 <div className='contact-details'>
    <label htmlFor="name"></label>
